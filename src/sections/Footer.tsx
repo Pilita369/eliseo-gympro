@@ -24,19 +24,22 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid sm:grid-cols-3 gap-8">
           
-          {/* Marca con logo */}
-          <div>
-            {/* Yo reemplazo el texto por el logo blanco */}
-            <img
-              src={logoBlanco}
-              alt="Eliseo Gym"
-              className="h-10 mb-3 object-contain"
-              loading="lazy"
-            />
-            <p className="text-muted-foreground text-sm">
-              Centro de Tecnificación Deportiva
-            </p>
-          </div>
+         {/* Marca con logo */}
+<div className="flex flex-col items-center text-center">
+  {/* Yo centro el logo */}
+  <img
+    src={logoBlanco}
+    alt="Eliseo Gym"
+    className="h-20 mb-3 object-contain"
+    loading="lazy"
+  />
+
+  {/* Yo centro el texto debajo */}
+  <p className="text-muted-foreground text-sm">
+    Centro de Tecnificación Deportiva
+  </p>
+</div>
+
 
           {/* Navegación */}
           <div>
