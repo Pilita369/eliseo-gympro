@@ -41,6 +41,18 @@
       content="Centro de tecnificación deportiva."
     />
     <meta name="twitter:image" content="/hero-gym.webp" />
+
+    <script>
+  (function () {
+    // Yo recupero la ruta guardada desde /404.html y la restauro.
+    var redirect = sessionStorage.getItem("redirect");
+    if (redirect) {
+      sessionStorage.removeItem("redirect");
+      history.replaceState(null, null, redirect);
+    }
+  })();
+</script>
+
   </head>
 
   <body class="notranslate">

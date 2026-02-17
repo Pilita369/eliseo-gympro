@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirigiendo…</title>
+
+    <script>
+      (function () {
+        // Yo guardo la ruta actual y vuelvo al root del repo para que cargue React.
+        var path = window.location.pathname;
+        var search = window.location.search || "";
+        var hash = window.location.hash || "";
+
+        var repo = "/eliseo-gympro";
+
+        var cleanPath = path.startsWith(repo) ? path.slice(repo.length) : path;
+        var redirect = repo + cleanPath + search + hash;
+
+        sessionStorage.setItem("redirect", redirect);
+        window.location.replace(repo + "/");
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
