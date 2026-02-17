@@ -15,7 +15,7 @@ export default function Header() {
     { label: "Inicio", id: "inicio" },
     { label: "Galería", id: "galeria" },
     { label: "Facundo", id: "facundo" },
-    { label: "Aviones", id: "planes" },
+    { label: "Planes", id: "planes" },
     { label: "Preguntas frecuentes", id: "faq" },
     { label: "Contacto", id: "contacto" },
   ];
