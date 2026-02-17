@@ -16,12 +16,11 @@ const App = () => (
       <Sonner />
 
       {/* Yo activo los future flags de React Router para evitar warnings y dejarlo listo para v7 */}
-      <BrowserRouter
-        future={{
-          v7_startTransition: true,
-          v7_relativeSplatPath: true,
-        }}
-      >
+     <BrowserRouter
+  basename={import.meta.env.BASE_URL}
+  future={{ v7_startTransition: true, v7_relativeSplatPath: true }}
+>
+
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/turnos" element={<Turnos />} />
