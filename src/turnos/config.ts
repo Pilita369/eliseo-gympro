@@ -1,14 +1,29 @@
 // Configuración editable del sistema de turnos
 
 export const GYM_NAME = "Eliseo Gym";
-export const WHATSAPP_NUMBER = "549XXXXXXXXXX";
+
+// Yo dejo el WhatsApp en formato internacional (Argentina: 54 + 9 + número)
+export const WHATSAPP_NUMBER = "5492995777823";
+
 export const EMAIL = "eliseogym@email.com";
-export const TRANSFER_ALIAS = "eliseogym.mp";
-export const TRANSFER_CBU = "0000000000000000000000";
+
+export const TRANSFER_ALIAS = "eliseo.gym.mp";
+export const TRANSFER_CBU = "0000003100037508325117";
 export const TRANSFER_OWNER = "Eliseo Gym";
 export const CURRENCY = "ARS";
 export const QR_IMAGE_PATH = "/qr-transferencia.png";
-export const GYM_LOCATION = "Eliseo Gym — Dirección editable";
+
+// Yo dejo la dirección real del gym
+export const GYM_LOCATION = "Otto Max Neuman 3680, Neuquén Capital";
+
+// Yo centralizo redes para usarlas en Footer/Contacto
+export const INSTAGRAM_HANDLE = "eliseo.gym";
+export const INSTAGRAM_URL = `https://instagram.com/${INSTAGRAM_HANDLE}`;
+
+// (Opcional) Link a Google Maps, lo dejo listo por si querés
+export const GOOGLE_MAPS_URL =
+  "https://www.google.com/maps/search/?api=1&query=Otto%20Max%20Neuman%203680%2C%20Neuqu%C3%A9n%20Capital";
+
 
 // Días hábiles
 export const DAYS_CONFIG = [

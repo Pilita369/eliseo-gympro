@@ -62,7 +62,7 @@ export default function Contact() {
             {/* Links de contacto */}
             <div className="space-y-6 animate-on-scroll">
               <a
-                href="https://wa.me/5491100000000"
+                href="https://wa.me/5492995777823"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="glass-card p-5 flex items-center gap-4 glow-hover block"
