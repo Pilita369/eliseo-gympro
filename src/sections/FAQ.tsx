@@ -9,31 +9,35 @@ import {
 const faqs = [
   {
     q: "¿Cuáles son los horarios de entrenamiento?",
-    a: "Los turnos están disponibles de lunes a viernes de 07:00 a 14:00, en intervalos de 30 minutos. Podés elegir el horario que mejor se adapte a tu rutina.",
+    a: "Los turnos están disponibles de lunes a viernes de 07:00 a 14:00. Cada turno dura 1 hora, así puedo planificar el entrenamiento con tiempo real y sin apuro.",
   },
   {
     q: "¿Cuántas personas entrenan por turno?",
-    a: "Máximo 2 personas por turno. Esto garantiza atención personalizada y correcciones técnicas en tiempo real.",
+    a: "Máximo 2 personas por turno. Lo hago así para mantener la calidad del entrenamiento, corregir técnica en el momento y acompañar el proceso de forma personalizada.",
   },
   {
     q: "¿Cómo reservo mi turno?",
-    a: "Desde la sección de Turnos en esta misma web. Elegís tu plan, día y horario, y confirmás la reserva. Todo queda guardado para tu comodidad.",
+    a: "Desde la sección de Turnos en esta web. Elegís tu plan, el día y el horario disponible. Al finalizar, podés enviar el mensaje por WhatsApp o Email para coordinar el pago por transferencia y confirmar.",
+  },
+  {
+    q: "¿Cómo funcionan los pagos?",
+    a: "Los pagos se realizan del 1 al 10 de cada mes. Los pagos fuera de ese plazo tienen un recargo del 10%, porque la planificación y el cupo se organizan de forma mensual.",
   },
   {
     q: "¿Puedo cancelar o cambiar mi turno?",
-    a: "Sí, podés modificar o cancelar tu reserva con anticipación desde la misma plataforma de turnos.",
+    a: "Sí. Podés cancelar desde la misma plataforma con anticipación, así ese cupo queda disponible para otra persona. Si necesitás reprogramar, lo ideal es avisar lo antes posible para encontrar un horario libre.",
   },
   {
     q: "¿Qué debo llevar al entrenamiento?",
-    a: "Ropa cómoda deportiva, zapatillas apropiadas, toalla y botella de agua. Nosotros nos encargamos del resto.",
-  },
-  {
-    q: "¿Cómo funciona la modalidad online?",
-    a: "Recibís un plan personalizado con videos de referencia, seguimiento semanal y ajustes según tu progreso. Ideal si no podés asistir presencialmente.",
+    a: "Ropa cómoda deportiva, zapatillas adecuadas, toalla y botella de agua. Yo me encargo de la planificación y de guiarte en cada parte del entrenamiento.",
   },
   {
     q: "¿Necesito experiencia previa?",
-    a: "No. El entrenamiento se adapta a tu nivel. Desde principiantes hasta deportistas avanzados, todos son bienvenidos.",
+    a: "No. El entrenamiento se adapta a tu nivel, desde personas que arrancan de cero hasta deportistas que buscan rendimiento. La idea es progresar con criterio, no a la fuerza.",
+  },
+  {
+    q: "¿Cómo funciona la modalidad online?",
+    a: "Recibís un plan personalizado, con indicaciones claras, seguimiento y ajustes según tu progreso. Es ideal si no podés asistir presencialmente o querés complementar tu entrenamiento.",
   },
 ];
 
