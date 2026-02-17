@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 // Yo ajusto el base para GitHub Pages (tiene que coincidir con el nombre del repo)
-const repoName = "Elise-gympro";
+const repoName = "eliseo-gympro";
 
 export default defineConfig(({ mode }) => ({
   base: `/${repoName}/`,
