@@ -2,8 +2,8 @@ import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { AnimatedSection } from "@/hooks/useScrollAnimation";
 import gym1 from "@/assets/gym-1.webp";
-import gym2 from "@/assets/gym-2.webp";
-import gym3 from "@/assets/gym-3.webp";
+import gym2 from "@/assets/gym-3.webp";
+import gym3 from "@/assets/gym-2.webp";
 import gym4 from "@/assets/gym-4.webp";
 import gym5 from "@/assets/gym-5.webp";
 
