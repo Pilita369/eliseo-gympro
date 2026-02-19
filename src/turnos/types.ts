@@ -20,6 +20,11 @@ export type Reservation = {
   paymentMethod: "Transferencia";
   note?: string;
   amountSuggested?: number;
+
+  // Yo agrupo reservas cuando son packs (2x/3x/full)
+  packId?: string;
+  packTotal?: number;
+  packIndex?: number;
 };
 
 // Clave de slot: "2026-02-17_08:00"

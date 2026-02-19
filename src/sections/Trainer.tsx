@@ -21,14 +21,13 @@ export default function Trainer() {
       <section id="facundo" className="py-20 md:py-28 bg-secondary/30">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
-            
             {/* Imagen */}
             <div className="animate-on-scroll">
               <div className="glass-card overflow-hidden rounded-2xl glow-hover">
                 <img
                   src={facuImg}
                   alt="Facundo — Entrenador"
-                  className="w-full aspect-[3/4] object-cover"
+                  className="w-full aspect-[3/4] object-cover object-top"
                   loading="lazy"
                 />
               </div>
@@ -43,35 +42,29 @@ export default function Trainer() {
 
                 <h2 className="section-title mb-6">Soy Facundo</h2>
 
-                {/* 
-                  Yo organizo el texto en 2 columnas en desktop 
-                  y lo mantengo en una sola columna en mobile.
-                */}
                 <div className="text-muted-foreground text-sm md:text-base leading-relaxed space-y-4 md:columns-2 md:gap-8">
-                  
                   <p>
-                    Soy Profesor de Educación Física, especializado en preparación física y entrenamiento aplicado al deporte. 
-                    Me formé con referentes del alto rendimiento como Horacio E. Anselmi y profundicé mi desarrollo en el entrenamiento 
+                    Soy Profesor de Educación Física, especializado en preparación física y entrenamiento aplicado al deporte.
+                    Me formé con referentes del alto rendimiento como Horacio E. Anselmi y profundicé mi desarrollo en el entrenamiento
                     específico del vóley, incorporando herramientas vinculadas al trabajo de Alejandro Bertorello.
                   </p>
 
                   <p>
-                    Trabajé como formador y entrenador en la Municipalidad de Neuquén, acompañando deportistas desde categorías 
-                    formativas hasta instancias competitivas. Esa experiencia me permitió entender que el rendimiento no es solo físico: 
+                    Trabajé como formador y entrenador en la Municipalidad de Neuquén, acompañando deportistas desde categorías
+                    formativas hasta instancias competitivas. Esa experiencia me permitió entender que el rendimiento no es solo físico:
                     es proceso, educación y construcción a largo plazo.
                   </p>
 
                   <p>
-                    La misión de este espacio es mejorar la calidad de vida a través del movimiento consciente, combinando tecnificación 
-                    deportiva con planificación profesional. Trabajo con evaluaciones iniciales como FMS para detectar limitaciones, 
+                    La misión de este espacio es mejorar la calidad de vida a través del movimiento consciente, combinando tecnificación
+                    deportiva con planificación profesional. Trabajo con evaluaciones iniciales como FMS para detectar limitaciones,
                     prevenir lesiones y diseñar entrenamientos personalizados.
                   </p>
 
                   <p className="font-medium text-foreground">
-                    No busco entrenar por intensidad sin dirección. Busco construir rendimiento con criterio. 
+                    No busco entrenar por intensidad sin dirección. Busco construir rendimiento con criterio.
                     Porque estar agotado no siempre significa estar mejorando.
                   </p>
-
                 </div>
               </div>
 
@@ -101,7 +94,6 @@ export default function Trainer() {
                   </div>
                 ))}
               </div>
-
             </div>
           </div>
         </div>
