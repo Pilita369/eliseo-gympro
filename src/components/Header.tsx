@@ -11,6 +11,9 @@ export default function Header() {
   // Yo uso BASE_URL para que GitHub Pages nunca me mande al root del dominio.
   const base = import.meta.env.BASE_URL;
 
+  // Yo desactivo la sección de turnos temporalmente (hasta terminar ajustes).
+  const TURNOS_HABILITADOS = false;
+
   const navLinks = [
     { label: "Inicio", id: "inicio" },
     { label: "Galería", id: "galeria" },
@@ -71,9 +74,21 @@ export default function Header() {
             </button>
           ))}
 
-          <Link to="/turnos" className="btn-cta text-sm">
-            Reservar turno
-          </Link>
+          {/* Yo desactivo Turnos por ahora */}
+          {TURNOS_HABILITADOS ? (
+            <Link to="/turnos" className="btn-cta text-sm">
+              Reservar turno
+            </Link>
+          ) : (
+            <button
+              type="button"
+              disabled
+              className="btn-cta text-sm opacity-60 cursor-not-allowed"
+              title="Estamos preparando el sistema de reservas"
+            >
+              Próximamente
+            </button>
+          )}
         </nav>
 
         {/* Hamburguesa mobile */}
@@ -102,13 +117,25 @@ export default function Header() {
               </button>
             ))}
 
-            <Link
-              to="/turnos"
-              onClick={() => setOpen(false)}
-              className="btn-cta text-sm text-center mt-2"
-            >
-              Reservar turno
-            </Link>
+            {/* Yo desactivo Turnos por ahora */}
+            {TURNOS_HABILITADOS ? (
+              <Link
+                to="/turnos"
+                onClick={() => setOpen(false)}
+                className="btn-cta text-sm text-center mt-2"
+              >
+                Reservar turno
+              </Link>
+            ) : (
+              <button
+                type="button"
+                disabled
+                className="btn-cta text-sm text-center mt-2 opacity-60 cursor-not-allowed"
+                title="Estamos preparando el sistema de reservas"
+              >
+                Próximamente
+              </button>
+            )}
           </nav>
         </div>
       )}
