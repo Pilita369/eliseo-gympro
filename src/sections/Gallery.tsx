@@ -6,6 +6,8 @@ import gym2 from "@/assets/gym-3.webp";
 import gym3 from "@/assets/gym-2.webp";
 import gym4 from "@/assets/gym-4.webp";
 import gym5 from "@/assets/gym-5.webp";
+import gym6 from "@/assets/gym-6.webp"; // nueva
+import gym7 from "@/assets/gym-7.webp"; // nueva
 
 const images = [
   { src: gym1, alt: "Zona de pesas" },
@@ -13,6 +15,8 @@ const images = [
   { src: gym3, alt: "Zona cardio" },
   { src: gym4, alt: "Movilidad y flexibilidad" },
   { src: gym5, alt: "Vestuarios" },
+  { src: gym6, alt: "Espacio de clases" },      // nueva
+  { src: gym7, alt: "Área de máquinas" },     // nueva
 ];
 
 export default function Gallery() {
@@ -34,7 +38,6 @@ export default function Gallery() {
             </p>
           </div>
 
-          {/* Carrusel */}
           <div className="relative max-w-4xl mx-auto animate-on-scroll">
             <div className="overflow-hidden rounded-2xl glass-card">
               <div
@@ -53,7 +56,6 @@ export default function Gallery() {
               </div>
             </div>
 
-            {/* Flechas */}
             <button
               onClick={prev}
               className="absolute left-3 top-1/2 -translate-y-1/2 glass-card p-2 glow-hover"
@@ -69,7 +71,6 @@ export default function Gallery() {
               <ChevronRight className="text-primary" size={24} />
             </button>
 
-            {/* Dots */}
             <div className="flex justify-center gap-2 mt-6">
               {images.map((_, i) => (
                 <button
